@@ -71,7 +71,7 @@ int main()
             if (SQ == 0)
             {
                 std::cout << "Data Entry Ended!!";
-                break;
+               // break;
             }
             // Persons.
             else if (SQ == 1)
@@ -120,7 +120,7 @@ int main()
             if (SQ == 0)
             {
                 std::cout << "Data Veiw Ended!!";
-                break;
+               // break;
             }
             // Persons.
             else if (SQ == 1)
