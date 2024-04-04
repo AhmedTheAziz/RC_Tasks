@@ -3,7 +3,7 @@
 #include "Person.h"
 #include <ostream>
 
-class Employee : virtual public Person
+class Employee : public virtual Person
 {
 protected:
     int Salary;

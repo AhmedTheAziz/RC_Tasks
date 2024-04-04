@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Person.h"
-class Student : virtual public Person // public Person = inherit everythin in Person and make it at it is (public or Protected).
+class Student : public virtual Person // public Person = inherit everythin in Person and make it at it is (public or Protected).
 {
 private:
     int student_level;

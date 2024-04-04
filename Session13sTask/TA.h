@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Student.h"
 #include "Employee.h"
-class TA : public Student,  public Employee
+class TA :  public virtual Student,  public virtual Employee
 {
 private:
     std::string Subjects;

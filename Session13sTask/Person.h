@@ -5,7 +5,7 @@ class Person
 private:
     std::string name;
     std::string gender;
-    float age = 0;
+    float age ;
 
 public:
     // Constructor.
