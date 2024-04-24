@@ -2,7 +2,7 @@
 Name: Ahmed Abdelaziz
 Robotics Corner.
 Session 16's Task:
-Task01: UML 
+Task01: UML
 Task02: Array Search for The Sum of Two Indices that Equals to a Specific Target
 */
 // Includes.
@@ -181,8 +181,8 @@ int main()
     {
         int arrow = 1;
     again:
-        //std::cout << " arrow is " << arrow << std::endl;
-        //std::cout<<" i is "<<i<<std::endl;
+        // std::cout << " arrow is " << arrow << std::endl;
+        // std::cout<<" i is "<<i<<std::endl;
 
         if (arr[arrow] + arr[i] == T)
         {
@@ -193,13 +193,14 @@ int main()
         }
         else if (arrow >= n)
         {
-           // std::cout << "TESTTTT\n";
+            // std::cout << "TESTTTT\n";
         }
         else
         {
             ++arrow;
-           // std::cout << "Test..\n";
+            // std::cout << "Test..\n";
             goto again;
         }
     }
 }
+
