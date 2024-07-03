@@ -1,0 +1,2 @@
+C:/msys64/ucrt64/bin/ar.exe qc libStackLibrary.a CMakeFiles/StackLibrary.dir/Stack.cpp.obj
+C:/msys64/ucrt64/bin/ranlib.exe libStackLibrary.a

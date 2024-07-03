@@ -14,7 +14,7 @@ private:
     int front, rear;
     int size;
     T *arr;
-
+ 
 public:
     // Constructor.
     Q(int s) : front(-1), rear(-1), size(s), arr(new T[s]) {}
